@@ -1,0 +1,2 @@
+## Good link for apache/laravel setup
+https://mindthecode.com/setting-up-laravel-with-docker-compose/
