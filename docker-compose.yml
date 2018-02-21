@@ -16,9 +16,9 @@ services:
       - "./data:/docker-entrypoint-initdb.d"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: laravel_ddb
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: laravel
+      POSTGRES_DB: laravel_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: test
+      POSTGRES_ROOT_PASSWORD: root
     ports:
       - "5432:5432"
